@@ -1,5 +1,6 @@
 import os
 import sys
+# sys.path.append(".")
 import glob
 import math 
 from enum import Enum 
@@ -7,6 +8,7 @@ from collections import deque
 import random
 import networkx as nx 
 import numpy as np
+
 from agents.navigation.controller import VehiclePIDController
 try:
     sys.path.append(glob.glob('../carla/dist/carla-*%d.%d-%s.egg' % (
